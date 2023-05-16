@@ -9,8 +9,9 @@ module.exports = {
         "17px": "17px"
       },
       colors: {
-        primary: "#426B1F"
-
+        primary: "#426B1F",
+        secondary: "#FAFAF5",
+        grey: "#6D6D6D"
       },
       fontSize: {
         "3.5xl": "32px",
@@ -22,6 +23,7 @@ module.exports = {
       gap: {
         "15px": "15px"
       }
+
     },
   },
   plugins: [],

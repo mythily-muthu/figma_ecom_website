@@ -6,10 +6,12 @@ const Button = ({
   textColor = "text-white",
   click,
   width = "w-max",
+  radius = "rounded-lg",
+  border = "",
 }) => {
   return (
     <button
-      className={`h-12 px-23px py-13px ${bgColor} ${width} ${textColor} rounded-lg`}
+      className={`h-12 px-23px py-13px ${bgColor} ${width} ${textColor} ${radius} ${border}`}
       onClick={click}
     >
       {name}
