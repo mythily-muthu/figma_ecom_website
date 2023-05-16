@@ -3,7 +3,7 @@ import Content from "./components/Content";
 import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
-    <div className="">
+    <div className="w-screen h-screen bg-white flex flex-col">
 
       <Router>
         {/* layout */}
