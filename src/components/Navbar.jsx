@@ -19,8 +19,8 @@ const Navbar = () => {
       link: "who_we_are",
     },
     {
-      title: "My profile",
-      link: "my_profile",
+      title: "My profiles",
+      link: "my_profiles",
     },
   ];
   const handleBasketClick = () => {
@@ -45,6 +45,7 @@ const Navbar = () => {
         {navList.map((item) => {
           return (
             <p
+              key={item.title}
               className={`${activePage === item.link && "text-primary"}`}
               onClick={(e) => {
                 e.preventDefault();
