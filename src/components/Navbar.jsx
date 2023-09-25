@@ -27,7 +27,7 @@ const Navbar = () => {
     navigate("/cart");
   };
   return (
-    <div className="flex w-full justify-between items-center px-24 py-8">
+    <div className="flex w-full justify-between items-center px-24 py-7">
       {/* left */}
       <div
         className="text-primary font-medium text-3.5xl text-2xl hover:cursor-pointer"
